@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panda"
+    tools:context=".FirstPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="WELCOME"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:fontFamily="serif-monospace" />
+
+    <ImageButton
+        android:id="@+id/nextbutton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/next"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

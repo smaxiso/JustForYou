@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heartcandies"
+    tools:context=".ThirdPage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="208dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/happybdaycake" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="THIS IS FOR YOU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="serif-monospace" />
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/back"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="153dp"
+        android:layout_marginStart="21dp"
+        android:text="ab smile to kr de pagal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="58dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/verygood"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="58dp"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="49dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/smiley"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>
